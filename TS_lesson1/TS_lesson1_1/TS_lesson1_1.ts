@@ -1,0 +1,44 @@
+let t:string = `hello`;
+console.log(t);
+let s:string = `owu`;
+console.log(s);
+let l:string = `com`;
+console.log(l);
+let d:string = `ua`;
+console.log(d);
+let first:number = 1;
+console.log(first);
+let second:number = 10;
+console.log(second);
+let minus:number = -999;
+console.log(minus);
+let dou:number = 3.14;
+console.log(dou);
+let flo:number = 2.7;
+console.log(flo);
+let v:number = 16;
+console.log(v);
+let pravda:boolean = true;
+console.log(pravda);
+let lie:boolean = false;
+console.log(lie);
+
+let firstName:string =`Олександр`;
+let middleName:string  =`Сергійович`;
+let lastName:string =`Дроздов`;
+let person:string =firstName + " " + middleName + " " + lastName;
+console.log(person);
+
+let a:number= 100;
+console.log(typeof a);
+let b:string = `100`;
+console.log(typeof b);
+let c:boolean = true;
+console.log(typeof c);
+
+let myName:string = prompt('Введіть cвоє імя', '');
+console.log(myName);
+let midName:string = prompt('Введіть як Вас По-Батькові', '');
+console.log(midName);
+let age:string = prompt('Введіть Ваш вік', '');
+console.log(age);
